@@ -190,8 +190,8 @@ function animate(){
 						Math.random()*2,
 						enemy.color,
 						{
-							x:(Math.random()-0.5)*(Math.random()*3),
-							y:(Math.random()-0.5)*(Math.random()*3)
+							x:(Math.random()-0.5)*(Math.random()*8),
+							y:(Math.random()-0.5)*(Math.random()*8)
 						}))
 				}
 				setTimeout(()=>{
