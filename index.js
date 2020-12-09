@@ -183,7 +183,7 @@ function animate(){
 				score = score +10
 				scoreId.innerHTML=score
 				
-				for(i=0;i<enemy.radius;i++){
+				for(i=0;i<enemy.radius*3;i++){
 					particles.push(new Particle(
 						projectile.x,
 						projectile.y,
